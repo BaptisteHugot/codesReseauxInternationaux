@@ -1,0 +1,962 @@
+[
+ {
+   "MCC": 202,
+   "Pays": "Grèce"
+ },
+ {
+   "MCC": 204,
+   "Pays": "Pays-Bas"
+ },
+ {
+   "MCC": 206,
+   "Pays": "Belgique"
+ },
+ {
+   "MCC": 208,
+   "Pays": "France"
+ },
+ {
+   "MCC": 212,
+   "Pays": "Monaco"
+ },
+ {
+   "MCC": 213,
+   "Pays": "Andorre"
+ },
+ {
+   "MCC": 214,
+   "Pays": "Espagne"
+ },
+ {
+   "MCC": 216,
+   "Pays": "Hongrie"
+ },
+ {
+   "MCC": 218,
+   "Pays": "Bosnie Herzégovine"
+ },
+ {
+   "MCC": 219,
+   "Pays": "Croatie"
+ },
+ {
+   "MCC": 220,
+   "Pays": "Serbie"
+ },
+ {
+   "MCC": 221,
+   "Pays": "Kosovo"
+ },
+ {
+   "MCC": 222,
+   "Pays": "Italie"
+ },
+ {
+   "MCC": 225,
+   "Pays": "Vatican"
+ },
+ {
+   "MCC": 226,
+   "Pays": "Roumanie"
+ },
+ {
+   "MCC": 228,
+   "Pays": "Suisse"
+ },
+ {
+   "MCC": 230,
+   "Pays": "Tchéquie"
+ },
+ {
+   "MCC": 231,
+   "Pays": "Slovaquie"
+ },
+ {
+   "MCC": 232,
+   "Pays": "Autriche"
+ },
+ {
+   "MCC": 234,
+   "Pays": "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord"
+ },
+ {
+   "MCC": 235,
+   "Pays": "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord"
+ },
+ {
+   "MCC": 238,
+   "Pays": "Danemark"
+ },
+ {
+   "MCC": 240,
+   "Pays": "Suède"
+ },
+ {
+   "MCC": 242,
+   "Pays": "Norvège"
+ },
+ {
+   "MCC": 244,
+   "Pays": "Finlande"
+ },
+ {
+   "MCC": 246,
+   "Pays": "Lituanie"
+ },
+ {
+   "MCC": 247,
+   "Pays": "Lettonie"
+ },
+ {
+   "MCC": 248,
+   "Pays": "Estonie"
+ },
+ {
+   "MCC": 250,
+   "Pays": "Russie"
+ },
+ {
+   "MCC": 255,
+   "Pays": "Ukraine"
+ },
+ {
+   "MCC": 257,
+   "Pays": "Biélorussie"
+ },
+ {
+   "MCC": 259,
+   "Pays": "Moldavie"
+ },
+ {
+   "MCC": 260,
+   "Pays": "Pologne"
+ },
+ {
+   "MCC": 262,
+   "Pays": "Allemagne"
+ },
+ {
+   "MCC": 266,
+   "Pays": "Gibraltar"
+ },
+ {
+   "MCC": 268,
+   "Pays": "Portugal"
+ },
+ {
+   "MCC": 270,
+   "Pays": "Luxembourg"
+ },
+ {
+   "MCC": 272,
+   "Pays": "Irlande"
+ },
+ {
+   "MCC": 274,
+   "Pays": "Islande"
+ },
+ {
+   "MCC": 276,
+   "Pays": "Albanie"
+ },
+ {
+   "MCC": 278,
+   "Pays": "Malte"
+ },
+ {
+   "MCC": 280,
+   "Pays": "Chypre"
+ },
+ {
+   "MCC": 282,
+   "Pays": "Géorgie"
+ },
+ {
+   "MCC": 283,
+   "Pays": "Arménie"
+ },
+ {
+   "MCC": 284,
+   "Pays": "Bulgarie"
+ },
+ {
+   "MCC": 286,
+   "Pays": "Turquie"
+ },
+ {
+   "MCC": 288,
+   "Pays": "Îles Féroé"
+ },
+ {
+   "MCC": 290,
+   "Pays": "Groenland"
+ },
+ {
+   "MCC": 292,
+   "Pays": "Saint-Marin"
+ },
+ {
+   "MCC": 293,
+   "Pays": "Slovénie"
+ },
+ {
+   "MCC": 294,
+   "Pays": "Macédoine du Nord"
+ },
+ {
+   "MCC": 295,
+   "Pays": "Liechtenstein"
+ },
+ {
+   "MCC": 297,
+   "Pays": "Monténégro"
+ },
+ {
+   "MCC": 302,
+   "Pays": "Canada"
+ },
+ {
+   "MCC": 308,
+   "Pays": "Saint Pierre et Miquelon"
+ },
+ {
+   "MCC": 310,
+   "Pays": "Etats-Unis d'Amérique"
+ },
+ {
+   "MCC": 311,
+   "Pays": "Etats-Unis d'Amérique"
+ },
+ {
+   "MCC": 312,
+   "Pays": "Etats-Unis d'Amérique"
+ },
+ {
+   "MCC": 313,
+   "Pays": "Etats-Unis d'Amérique"
+ },
+ {
+   "MCC": 314,
+   "Pays": "Etats-Unis d'Amérique"
+ },
+ {
+   "MCC": 315,
+   "Pays": "Etats-Unis d'Amérique"
+ },
+ {
+   "MCC": 316,
+   "Pays": "Etats-Unis d'Amérique"
+ },
+ {
+   "MCC": 330,
+   "Pays": "Porto Rico"
+ },
+ {
+   "MCC": 332,
+   "Pays": "Îles Vierges américaines"
+ },
+ {
+   "MCC": 334,
+   "Pays": "Mexique"
+ },
+ {
+   "MCC": 338,
+   "Pays": "Jamaïque"
+ },
+ {
+   "MCC": 340,
+   "Pays": "Guadeloupe"
+ },
+ {
+   "MCC": 340,
+   "Pays": "Martinique"
+ },
+ {
+   "MCC": 342,
+   "Pays": "Barbade"
+ },
+ {
+   "MCC": 344,
+   "Pays": "Antigua-et-Barbuda"
+ },
+ {
+   "MCC": 346,
+   "Pays": "Îles Caïmans"
+ },
+ {
+   "MCC": 348,
+   "Pays": "Îles Vierges britanniques"
+ },
+ {
+   "MCC": 350,
+   "Pays": "Bermudes"
+ },
+ {
+   "MCC": 352,
+   "Pays": "Grenade"
+ },
+ {
+   "MCC": 354,
+   "Pays": "Montserrat"
+ },
+ {
+   "MCC": 356,
+   "Pays": "Saint-Christophe-et-Niévès"
+ },
+ {
+   "MCC": 358,
+   "Pays": "Sainte-Lucie"
+ },
+ {
+   "MCC": 360,
+   "Pays": "Saint-Vincent-et-les-Grenadines"
+ },
+ {
+   "MCC": 362,
+   "Pays": "Bonaire, Saint-Eustache et Saba"
+ },
+ {
+   "MCC": 362,
+   "Pays": "Curaçao"
+ },
+ {
+   "MCC": 362,
+   "Pays": "Sint Maarten"
+ },
+ {
+   "MCC": 363,
+   "Pays": "Aruba"
+ },
+ {
+   "MCC": 364,
+   "Pays": "Bahamas"
+ },
+ {
+   "MCC": 365,
+   "Pays": "Anguilla"
+ },
+ {
+   "MCC": 366,
+   "Pays": "Dominique"
+ },
+ {
+   "MCC": 368,
+   "Pays": "Cuba"
+ },
+ {
+   "MCC": 370,
+   "Pays": "République Dominicaine"
+ },
+ {
+   "MCC": 372,
+   "Pays": "Haïti"
+ },
+ {
+   "MCC": 374,
+   "Pays": "Trinité-et-Tobago"
+ },
+ {
+   "MCC": 376,
+   "Pays": "îles Turques-et-Caïques"
+ },
+ {
+   "MCC": 400,
+   "Pays": "Azerbaïdjan"
+ },
+ {
+   "MCC": 401,
+   "Pays": "Kazakhstan"
+ },
+ {
+   "MCC": 402,
+   "Pays": "Bhoutan"
+ },
+ {
+   "MCC": 404,
+   "Pays": "Inde"
+ },
+ {
+   "MCC": 405,
+   "Pays": "Inde"
+ },
+ {
+   "MCC": 406,
+   "Pays": "Inde"
+ },
+ {
+   "MCC": 410,
+   "Pays": "Pakistan"
+ },
+ {
+   "MCC": 412,
+   "Pays": "Afghanistan"
+ },
+ {
+   "MCC": 413,
+   "Pays": "Sri Lanka"
+ },
+ {
+   "MCC": 414,
+   "Pays": "Myanmar"
+ },
+ {
+   "MCC": 415,
+   "Pays": "Liban"
+ },
+ {
+   "MCC": 416,
+   "Pays": "Jordanie"
+ },
+ {
+   "MCC": 417,
+   "Pays": "Syrie"
+ },
+ {
+   "MCC": 418,
+   "Pays": "Irak"
+ },
+ {
+   "MCC": 419,
+   "Pays": "Koweït"
+ },
+ {
+   "MCC": 420,
+   "Pays": "Arabie Saoudite"
+ },
+ {
+   "MCC": 421,
+   "Pays": "Yémen"
+ },
+ {
+   "MCC": 422,
+   "Pays": "Oman"
+ },
+ {
+   "MCC": 424,
+   "Pays": "Emirats Arabes Unis"
+ },
+ {
+   "MCC": 425,
+   "Pays": "Israël"
+ },
+ {
+   "MCC": 426,
+   "Pays": "Bahreïn"
+ },
+ {
+   "MCC": 427,
+   "Pays": "Qatar"
+ },
+ {
+   "MCC": 428,
+   "Pays": "Mongolie"
+ },
+ {
+   "MCC": 429,
+   "Pays": "Népal"
+ },
+ {
+   "MCC": 430,
+   "Pays": "Emirats Arabes Unis"
+ },
+ {
+   "MCC": 431,
+   "Pays": "Emirats Arabes Unis"
+ },
+ {
+   "MCC": 432,
+   "Pays": "Iran"
+ },
+ {
+   "MCC": 434,
+   "Pays": "Ouzbékistan"
+ },
+ {
+   "MCC": 436,
+   "Pays": "Tadjikistan"
+ },
+ {
+   "MCC": 437,
+   "Pays": "Kirghizistan"
+ },
+ {
+   "MCC": 438,
+   "Pays": "Turkménistan"
+ },
+ {
+   "MCC": 440,
+   "Pays": "Japon"
+ },
+ {
+   "MCC": 441,
+   "Pays": "Japon"
+ },
+ {
+   "MCC": 450,
+   "Pays": "Corée du Sud"
+ },
+ {
+   "MCC": 452,
+   "Pays": "Viet Nam"
+ },
+ {
+   "MCC": 454,
+   "Pays": "Hong Kong"
+ },
+ {
+   "MCC": 455,
+   "Pays": "Macao"
+ },
+ {
+   "MCC": 456,
+   "Pays": "Cambodge"
+ },
+ {
+   "MCC": 457,
+   "Pays": "Laos"
+ },
+ {
+   "MCC": 460,
+   "Pays": "Chine"
+ },
+ {
+   "MCC": 461,
+   "Pays": "Chine"
+ },
+ {
+   "MCC": 466,
+   "Pays": "Taiwan"
+ },
+ {
+   "MCC": 467,
+   "Pays": "Corée du Nord"
+ },
+ {
+   "MCC": 470,
+   "Pays": "Bangladesh"
+ },
+ {
+   "MCC": 472,
+   "Pays": "Maldives"
+ },
+ {
+   "MCC": 502,
+   "Pays": "Malaisie"
+ },
+ {
+   "MCC": 505,
+   "Pays": "Australie"
+ },
+ {
+   "MCC": 510,
+   "Pays": "Indonésie"
+ },
+ {
+   "MCC": 514,
+   "Pays": "Timor-Leste"
+ },
+ {
+   "MCC": 515,
+   "Pays": "Philippines"
+ },
+ {
+   "MCC": 520,
+   "Pays": "Thaïlande"
+ },
+ {
+   "MCC": 525,
+   "Pays": "Singapour"
+ },
+ {
+   "MCC": 528,
+   "Pays": "Brunei Darussalam"
+ },
+ {
+   "MCC": 530,
+   "Pays": "Nouvelle-Zélande"
+ },
+ {
+   "MCC": 536,
+   "Pays": "Nauru"
+ },
+ {
+   "MCC": 537,
+   "Pays": "Papouasie Nouvelle Guinée"
+ },
+ {
+   "MCC": 539,
+   "Pays": "Tonga"
+ },
+ {
+   "MCC": 540,
+   "Pays": "Îles Salomon"
+ },
+ {
+   "MCC": 541,
+   "Pays": "Vanuatu"
+ },
+ {
+   "MCC": 542,
+   "Pays": "Fidji"
+ },
+ {
+   "MCC": 543,
+   "Pays": "Wallis et Futuna"
+ },
+ {
+   "MCC": 544,
+   "Pays": "Samoa américaines"
+ },
+ {
+   "MCC": 545,
+   "Pays": "Kiribati"
+ },
+ {
+   "MCC": 546,
+   "Pays": "Nouvelle-Calédonie"
+ },
+ {
+   "MCC": 547,
+   "Pays": "Polynésie française"
+ },
+ {
+   "MCC": 548,
+   "Pays": "Îles Cook"
+ },
+ {
+   "MCC": 549,
+   "Pays": "Samoa"
+ },
+ {
+   "MCC": 550,
+   "Pays": "Micronésie"
+ },
+ {
+   "MCC": 551,
+   "Pays": "Îles Marshall"
+ },
+ {
+   "MCC": 552,
+   "Pays": "Palau"
+ },
+ {
+   "MCC": 553,
+   "Pays": "Tuvalu"
+ },
+ {
+   "MCC": 554,
+   "Pays": "Tokelau"
+ },
+ {
+   "MCC": 555,
+   "Pays": "Niue"
+ },
+ {
+   "MCC": 602,
+   "Pays": "Égypte"
+ },
+ {
+   "MCC": 603,
+   "Pays": "Algérie"
+ },
+ {
+   "MCC": 604,
+   "Pays": "Maroc"
+ },
+ {
+   "MCC": 605,
+   "Pays": "Tunisie"
+ },
+ {
+   "MCC": 606,
+   "Pays": "Libye"
+ },
+ {
+   "MCC": 607,
+   "Pays": "Gambie"
+ },
+ {
+   "MCC": 608,
+   "Pays": "Sénégal"
+ },
+ {
+   "MCC": 609,
+   "Pays": "Mauritanie"
+ },
+ {
+   "MCC": 610,
+   "Pays": "Mali"
+ },
+ {
+   "MCC": 611,
+   "Pays": "Guinée"
+ },
+ {
+   "MCC": 612,
+   "Pays": "Côte d'Ivoire"
+ },
+ {
+   "MCC": 613,
+   "Pays": "Burkina Faso"
+ },
+ {
+   "MCC": 614,
+   "Pays": "Niger"
+ },
+ {
+   "MCC": 615,
+   "Pays": "Togo"
+ },
+ {
+   "MCC": 616,
+   "Pays": "Bénin"
+ },
+ {
+   "MCC": 617,
+   "Pays": "Maurice"
+ },
+ {
+   "MCC": 618,
+   "Pays": "Libéria"
+ },
+ {
+   "MCC": 619,
+   "Pays": "Sierra Leone"
+ },
+ {
+   "MCC": 620,
+   "Pays": "Ghana"
+ },
+ {
+   "MCC": 621,
+   "Pays": "Nigéria"
+ },
+ {
+   "MCC": 622,
+   "Pays": "Tchad"
+ },
+ {
+   "MCC": 623,
+   "Pays": "République centrafricaine"
+ },
+ {
+   "MCC": 624,
+   "Pays": "Cameroun"
+ },
+ {
+   "MCC": 625,
+   "Pays": "Cap Vert"
+ },
+ {
+   "MCC": 626,
+   "Pays": "Sao Tomé et Principe"
+ },
+ {
+   "MCC": 627,
+   "Pays": "Guinée équatoriale"
+ },
+ {
+   "MCC": 628,
+   "Pays": "Gabon"
+ },
+ {
+   "MCC": 629,
+   "Pays": "Congo"
+ },
+ {
+   "MCC": 630,
+   "Pays": "République Démocratique du Congo"
+ },
+ {
+   "MCC": 631,
+   "Pays": "Angola"
+ },
+ {
+   "MCC": 632,
+   "Pays": "Guinée-Bissau"
+ },
+ {
+   "MCC": 633,
+   "Pays": "Seychelles"
+ },
+ {
+   "MCC": 634,
+   "Pays": "Soudan"
+ },
+ {
+   "MCC": 635,
+   "Pays": "Rwanda"
+ },
+ {
+   "MCC": 636,
+   "Pays": "Éthiopie"
+ },
+ {
+   "MCC": 637,
+   "Pays": "Somalie"
+ },
+ {
+   "MCC": 638,
+   "Pays": "Djibouti"
+ },
+ {
+   "MCC": 639,
+   "Pays": "Kenya"
+ },
+ {
+   "MCC": 640,
+   "Pays": "Tanzanie"
+ },
+ {
+   "MCC": 641,
+   "Pays": "Ouganda"
+ },
+ {
+   "MCC": 642,
+   "Pays": "Burundi"
+ },
+ {
+   "MCC": 643,
+   "Pays": "Mozambique"
+ },
+ {
+   "MCC": 645,
+   "Pays": "Zambie"
+ },
+ {
+   "MCC": 646,
+   "Pays": "Madagascar"
+ },
+ {
+   "MCC": 647,
+   "Pays": "Départements et territoires français de l'océan Indien"
+ },
+ {
+   "MCC": 648,
+   "Pays": "Zimbabwe"
+ },
+ {
+   "MCC": 649,
+   "Pays": "Namibie"
+ },
+ {
+   "MCC": 650,
+   "Pays": "Malawi"
+ },
+ {
+   "MCC": 651,
+   "Pays": "Lesotho"
+ },
+ {
+   "MCC": 652,
+   "Pays": "Botswana"
+ },
+ {
+   "MCC": 653,
+   "Pays": "Eswatini"
+ },
+ {
+   "MCC": 654,
+   "Pays": "Comores"
+ },
+ {
+   "MCC": 655,
+   "Pays": "Afrique du Sud"
+ },
+ {
+   "MCC": 657,
+   "Pays": "Érythrée"
+ },
+ {
+   "MCC": 658,
+   "Pays": "Sainte-Hélène, Ascension et Tristan da Cunha"
+ },
+ {
+   "MCC": 659,
+   "Pays": "Soudan du Sud"
+ },
+ {
+   "MCC": 702,
+   "Pays": "Belize"
+ },
+ {
+   "MCC": 704,
+   "Pays": "Guatemala"
+ },
+ {
+   "MCC": 706,
+   "Pays": "El Salvador"
+ },
+ {
+   "MCC": 708,
+   "Pays": "Honduras"
+ },
+ {
+   "MCC": 710,
+   "Pays": "Nicaragua"
+ },
+ {
+   "MCC": 712,
+   "Pays": "Costa Rica"
+ },
+ {
+   "MCC": 714,
+   "Pays": "Panama"
+ },
+ {
+   "MCC": 716,
+   "Pays": "Pérou"
+ },
+ {
+   "MCC": 722,
+   "Pays": "Argentine"
+ },
+ {
+   "MCC": 724,
+   "Pays": "Brésil"
+ },
+ {
+   "MCC": 730,
+   "Pays": "Chili"
+ },
+ {
+   "MCC": 732,
+   "Pays": "Colombie"
+ },
+ {
+   "MCC": 734,
+   "Pays": "Vénézuela"
+ },
+ {
+   "MCC": 736,
+   "Pays": "Bolivie"
+ },
+ {
+   "MCC": 738,
+   "Pays": "Guyana"
+ },
+ {
+   "MCC": 740,
+   "Pays": "Equateur"
+ },
+ {
+   "MCC": 742,
+   "Pays": "Guyane française"
+ },
+ {
+   "MCC": 744,
+   "Pays": "Paraguay"
+ },
+ {
+   "MCC": 746,
+   "Pays": "Suriname"
+ },
+ {
+   "MCC": 748,
+   "Pays": "Uruguay"
+ },
+ {
+   "MCC": 750,
+   "Pays": "Îles Falkland"
+ }
+]
