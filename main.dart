@@ -38,7 +38,7 @@ List<CountryCode> getCountry(String IMSI, List<CountryCode> countryCode){
   }while(temp.isEmpty && i>=2);
 
   if(temp.isEmpty){
-    temp.add(CountryCode(pays: "Inexistant"));
+    temp.add(CountryCode(MCC: 0, pays: "Inexistant"));
   }
 
   return temp;
@@ -56,7 +56,7 @@ class CountryCode {
   final int MCC;
   final String pays;
 
-  CountryCode({this.MCC, this.pays});
+  CountryCode({required this.MCC, required this.pays});
 
   factory CountryCode.fromJson(Map<String, dynamic> json) {
     return CountryCode(
@@ -89,7 +89,7 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatefulWidget{
   final String title;
 
-  MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({Key? key, required this.title}) : super(key: key);
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
@@ -105,7 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: FutureBuilder<List<CountryCode>>(
         future: fetchCountryCode(http.Client()),
-        builder: (context, snapshot) {
+        builder: (context, AsyncSnapshot snapshot) {
           if(snapshot.hasError){
             print(snapshot.error);
             return Container();
@@ -124,7 +124,7 @@ class _MyHomePageState extends State<MyHomePage> {
 class CountryCodeList extends StatefulWidget{
   final List<CountryCode> countryCode;
 
-  CountryCodeList({Key key, this.countryCode}) : super(key: key);
+  CountryCodeList({Key? key, required this.countryCode}) : super(key: key);
 
   @override
   _CountryCodeListState createState() => _CountryCodeListState(countryCode: countryCode);
@@ -134,7 +134,7 @@ class CountryCodeList extends StatefulWidget{
 class _CountryCodeListState extends State<CountryCodeList> {
   final List<CountryCode> countryCode;
 
-  _CountryCodeListState({Key key, this.countryCode}) : super();
+  _CountryCodeListState({Key? key, required this.countryCode}) : super();
 
   /// On définit les contrôleurs de texte et de formulaire
   final IMSIController = TextEditingController();
@@ -142,15 +142,39 @@ class _CountryCodeListState extends State<CountryCodeList> {
 
   /// On définit les expressions régulières
   static Pattern patternIMSI = r"^[2-7][0-9]{14}$";
-  static RegExp regexIMSI = new RegExp(patternIMSI);
+  static RegExp regexIMSI = new RegExp(patternIMSI.toString());
 
   bool showResult = false; /// Booléen pour afficher le résultat ou non
   String IMSI = ""; /// Code IMSI entré
   String country = ""; /// Résultat à afficher
-  List<CountryCode> result;
+  List<CountryCode> result = [];
 
+  /// On initialise l'état de l'application
   void initState(){
     super.initState();
+  }
+
+  /// Lorsqu'on clique sur le bouton effacer
+  void _erase(){
+    setState(() {
+      showResult = false;
+      IMSIController.text = "";
+    });
+  }
+
+  /// Lorsqu'on clique sur le bouton valider
+  void _validate(){
+    if(_formKey.currentState!.validate()){
+      setState(() {
+        IMSI = IMSIController.text;
+        result = getCountry(IMSI, countryCode);
+        showResult = true;
+      });
+    }else{
+      setState((){
+        showResult = false;
+      });
+    }
   }
 
   @override
@@ -172,12 +196,14 @@ class _CountryCodeListState extends State<CountryCodeList> {
                       labelText: "Numéro IMSI"
                   ),
                   validator: (value){
-                    if(value.isEmpty){
-                      return "Entrez un numéro IMSI";
-                    }else if(!regexIMSI.hasMatch(value)){
-                      return "Entrez un numéro IMSI au format valide";
+                    if(value != null) {
+                      if (value.isEmpty) {
+                        return "Entrez un numéro IMSI";
+                      } else if (!regexIMSI.hasMatch(value)) {
+                        return "Entrez un numéro IMSI au format valide";
+                      }
+                      return null;
                     }
-                    return null;
                   },
                 ),
                 SizedBox(height: 5), /// On ajoute un espacement en hauteur
@@ -186,23 +212,14 @@ class _CountryCodeListState extends State<CountryCodeList> {
                   children: <Widget>[
                     ElevatedButton(
                       onPressed: (){
-                        if(_formKey.currentState.validate()){
-                          setState(() {
-                            IMSI = IMSIController.text;
-                            result = getCountry(IMSI, countryCode);
-                            showResult = true;
-                          });
-                        }
+                        _validate();
                       },
                       child: Text("Valider"),
                     ),
                     SizedBox(width: 5), /// On ajoute un espacement entre les 2 boutons
                     ElevatedButton(
                       onPressed: (){
-                        setState(() {
-                          showResult = false;
-                          IMSIController.text = "";
-                        });
+                        _erase();
                       },
                       child: Text("Effacer"),
                     ),
